@@ -13,7 +13,7 @@ function loader(extra = {}) {
 				babelrc: false
 			}
 		},
-		options = rc('babel', {}),
+		options = rc('babel', {}, () => undefined),
 		browsers = browserslist.findConfig('.')
 	;
 
@@ -25,12 +25,10 @@ function loader(extra = {}) {
 		env = process.env.NODE_ENV;
 	}
 
-	// Remove default props from babelrc
+	// Remove default props from rc
 	delete(options._);
-	delete(options.mode);
 	delete(options.config);
 	delete(options.configs);
-	delete(options.coverage);
 
 	// Transform and merge browsers into presets:
 	options.presets = options.presets.map((preset) => {
