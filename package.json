@@ -1,6 +1,6 @@
 {
   "name": "@moccu/babel-browserslist-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The webpack babel-loader with support for browsers defined in .browserslistrc for babel 6.x",
   "main": "index.js",
   "scripts": {
