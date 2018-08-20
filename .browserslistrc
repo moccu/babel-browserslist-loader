@@ -1,0 +1,10 @@
+[production]
+last 4 versions
+Chrome >= 41
+IE >= 10
+
+[development]
+last 1 versions
+
+[test]
+last 42 versions

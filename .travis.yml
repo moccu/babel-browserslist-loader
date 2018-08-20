@@ -1,0 +1,9 @@
+sudo: false
+language: node_js
+node_js:
+- "lts/*"
+install:
+- npm install
+script:
+- npm run test
+- npm run coverage

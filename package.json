@@ -1,0 +1,41 @@
+{
+  "name": "@moccu/babel-browserslist-loader",
+  "version": "0.0.1",
+  "description": "The webpack babel-loader with support for browsers defined in .browserslistrc for babel 6.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "make validate tests",
+    "coverage": "make coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/moccu/babel-browserslist-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "babel-loader",
+    "browserslist"
+  ],
+  "author": "Moccu GmbH & Co. KG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moccu/babel-browserslist-loader/issues"
+  },
+  "homepage": "https://github.com/moccu/babel-browserslist-loader#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "browserslist": "^4.0.2",
+    "deep-extend": "^0.6.0",
+    "rc": "^1.2.8"
+  },
+  "devDependencies": {
+    "@moccu/eslint-config": "^0.1.0",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.7.0",
+    "codecov": "^3.0.4",
+    "eslint": "^5.4.0",
+    "eslint-plugin-jest": "^21.21.0",
+    "jest": "^23.5.0"
+  }
+}
